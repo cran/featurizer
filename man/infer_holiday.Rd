@@ -4,10 +4,12 @@
 \alias{infer_holiday}
 \title{Infer if a date is a fedral holiday}
 \usage{
-infer_holiday(date_lst)
+infer_holiday(date_lst, detect_cores)
 }
 \arguments{
 \item{date_lst}{a list of dates strings of the format YYYY-MM-DD}
+
+\item{detect_cores}{If False (default), 2 cores are used. If True, half the number of cores are used on Mac OS else 2 cores are used.}
 }
 \value{
 Returns the kind of fedral holiday that was/will be observed on that date. If there was no holiday observed, it returns None.

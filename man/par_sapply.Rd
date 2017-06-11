@@ -4,12 +4,14 @@
 \alias{par_sapply}
 \title{A friendlier parSapply.}
 \usage{
-par_sapply(X, FUNC)
+par_sapply(X, FUNC, detect_cores)
 }
 \arguments{
 \item{X}{The vector of value to perform paralleized sapply on.}
 
 \item{FUNC}{Function to be applied to every value of X, similar to sapply}
+
+\item{detect_cores}{If False (default), 2 cores are used. If True, half the number of cores are used on Mac OS else 2 cores are used.}
 }
 \value{
 The a vector just like sapply. It does applies the function on X in parallel and hence is very fast.

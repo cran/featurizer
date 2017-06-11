@@ -3,8 +3,13 @@
 \name{infer_gender}
 \alias{infer_gender}
 \title{Infer gender for list of names fast}
+\usage{
+infer_gender(x, detect_cores)
+}
 \arguments{
 \item{x}{The vector of names to perform paralleized inference on}
+
+\item{detect_cores}{If False (default), 2 cores are used. If True, half the number of cores are used on Mac OS else 2 cores are used.}
 }
 \value{
 The a vector with m/f/u if the name in the original vector was male female or Unknown respectively
