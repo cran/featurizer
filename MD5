@@ -1,0 +1,12 @@
+214d8d702bda9963864c88a83ec021ec *DESCRIPTION
+938262b5a129a21cc8a9b1d689d707fb *NAMESPACE
+63a43c25adb956817aa7f747798ca619 *R/holiday_lst.R
+7c48e734fd5fb9dda77eeeb5ae477743 *R/infer_gender.R
+07f0c9b5a795ba14a92408468b26ce49 *R/infer_holiday.R
+f66bdc6a2505b4c3d9963ff10664745f *R/par_sapply.R
+2ceaa2c2dc6fc3bc9586f17c078f3f12 *inst/extdata/Gender/mf.txt
+2a8f9710ada9305ddb8089072218d0e2 *inst/extdata/Holidays/list_of_holidays.csv
+066d718e79a321565358705456f6ab93 *man/holiday_lst.Rd
+5f07dd1f27927d709668ce8322583764 *man/infer_gender.Rd
+56ea528f22bbaf2747af2a348245ce84 *man/infer_holiday.Rd
+775f8730e78fc485312d67b7333a8ca8 *man/par_sapply.Rd
